@@ -98,7 +98,7 @@ to better understand the differences.
     - we do not need to build the app ourselves. netlify does that.
     - when a build is successful, netlify returns an URL of the app.
 
-   ![Weather app on netlify](./images/netlify.png)
+<!--   ![Weather app on netlify](./images/netlify.png) a-->
 
 ## To-Do
 1. Full annotation in source codes.
