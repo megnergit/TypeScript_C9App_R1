@@ -1,27 +1,42 @@
-# TypeScript_C9App_R1
-
 # TypeScript WeatherApp
 ## Task
 
-We will create a weather app, following the textbook ["The First React
-App with TypeScript"](https://react-typescript-book-weather-app.netlify.app/links) (Japanese). What the weather app does:
+We will create a tracker app, following the textbook ["The First React
+App with
+JavaScript"](https://react-book-corona-tracker-app-typescript.netlify.app/dev/links)
+(Japanese). The tracker app has two pages.
 
-- accepts a name of a city
-- hits the API at the website [weatherapi](https://www.weatherapi.com)
-- returns
-   + temperature
-   + weather (sunny/cloudy/rainy, etc.)
-   + weather icon
+[Page A: Covid19 infection status by country]
 
-We will see how React works in a TypeScript code. This repository is
-cloned from the [textbook
-repo](https://github.com/mod728/react-typescript-book-weather-app).
-The tech stack we will learn on the way are
+- select one country from pull-down menu
+- show following numbers
+  + date
+  + newly infected
+  + total infection count by now 
+  + newly recovered 
+  + total recovery count by now 
 
-1. Node.js (and npm within)
-2. TypeScript
-3. React
-4. Netlify (to deploy the app)
+[Page B: Covid19 infection status in the world]
+- following numbers are shown for all countries as cards
+  + newly infrected
+  + total count of infections so far
+
+We will see
+- what is API
+- how to work with node.js and npm
+- how to format JSON data
+- how to start a react project
+  + how to use the template `create-react-app`
+  
+- how to push the app to GitHub
+- how to deploy the app on netlify
+
+We will start writing app first in
+- JavaScript, and then convert it to
+- TypeScript
+
+to better understand the differences. 
+
 
 ## Quick Summary
 
@@ -30,14 +45,17 @@ The tech stack we will learn on the way are
    - `npm` comes together with `node.js`
 
 2. Get React template files.
-   `npx create-react-app react-typescript-weather-app --template typescript`
+   `npx create-react-app react-c9`
 
    The command creates a copy of `create-react-app` to the local
-   machine with the name `react-typescript-weather-app` Typescript
-   template is used when making a copy.
+   machine with the name `react-c9`.
 
-3. `cd react-typescript-weather-app`
+   In case we would like to start with TypeScript template from the start:
+   `npx create-react-app react-c9-ts --template typescript`
+   
+3. `cd react-c9`
 
+[meg@elias ~/git9/scr/react-c9]$ tree -L 1
 ```
 .
 ├── README.md
@@ -45,11 +63,9 @@ The tech stack we will learn on the way are
 ├── package-lock.json
 ├── package.json
 ├── public
-├── src
-└── tsconfig.json
-```
+└── src
 
-    We will clone the textbook repo to `src` directory, where we work.
+```
 
 4. `npm start`
 
@@ -76,7 +92,6 @@ The tech stack we will learn on the way are
 └── reportWebVitals.ts
 ```
 
-
 6.  Sign up [netlify](http://www.netlify.com).
     - one can sign up with GitHub ID.
     - we have to give netlify an access to the repo at our GitHub.
@@ -90,51 +105,3 @@ The tech stack we will learn on the way are
 2. Brush up.
 3. Gatsby/Next.js
 
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
