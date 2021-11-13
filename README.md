@@ -64,35 +64,23 @@ to better understand the differences.
 ├── package.json
 ├── public
 └── src
-
 ```
 
-4. `npm start`
 
-    `node.js` is started. `node.js` is an 'environment' that provides
-    us an App development platform. As we edit the source codes, we
-    can see the updated output at `http://localhost:3000`.
-
-    `Ctrl + C` to stop `node.js`
-
-5.  Edit the source codes.
-
+4. `cd scr` and remove unneccessary source code files with `git rm`
 ```
-./src
+.
 ├── App.css
-├── App.scss
-├── App.tsx
-├── components
-│   ├── Form.tsx
-│   ├── Loading.tsx
-│   ├── Results.tsx
-│   └── Title.tsx
-├── index.tsx
-├── react-app-env.d.ts
-└── reportWebVitals.ts
+├── App.js
+└── index.js
 ```
 
-6.  Sign up [netlify](http://www.netlify.com).
+5. `npm start`
+
+6. Edit source codes. 
+
+
+7.  Sign up [netlify](http://www.netlify.com).
     - one can sign up with GitHub ID.
     - we have to give netlify an access to the repo at our GitHub.
     - we do not need to build the app ourselves. netlify does that.
