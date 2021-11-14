@@ -30,16 +30,6 @@
         "ISO2": "NL"
     },
     {
-        "Country": "Belgium",
-        "Slug": "belgium",
-        "ISO2": "BE"
-    },
-    {
-        "Country": "Luxembourg",
-        "Slug": "luxembourg",
-        "ISO2": "LU"
-    },
-    {
         "Country": "Austria",
         "Slug": "austria",
         "ISO2": "AT"
@@ -50,9 +40,14 @@
         "ISO2": "CH"
     },
     {
-        "Country": "Norway",
-        "Slug": "norway",
-        "ISO2": "NO"
+        "Country": "Belgium",
+        "Slug": "belgium",
+        "ISO2": "BE"
+    },
+    {
+        "Country": "Sweden",
+        "Slug": "sweden",
+        "ISO2": "SE"
     },
     {
         "Country": "Denmark",
@@ -60,9 +55,29 @@
         "ISO2": "DK"
     },
     {
+        "Country": "Iceland",
+        "Slug": "iceland",
+        "ISO2": "IS"
+    },
+    {
+        "Country": "Finland",
+        "Slug": "finland",
+        "ISO2": "FI"
+    },
+    {
+        "Country": "Norway",
+        "Slug": "norway",
+        "ISO2": "NO"
+    },
+    {
         "Country": "Czech Republic",
         "Slug": "czech-republic",
         "ISO2": "CZ"
+    },
+    {
+        "Country": "Ireland",
+        "Slug": "ireland",
+        "ISO2": "IE"
     },
     {
         "Country": "Portugal",
@@ -80,24 +95,24 @@
         "ISO2": "EE"
     },
     {
-        "Country": "Iceland",
-        "Slug": "iceland",
-        "ISO2": "IS"
+        "Country": "Latvia",
+        "Slug": "latvia",
+        "ISO2": "LV"
     },
     {
-        "Country": "Finland",
-        "Slug": "finland",
-        "ISO2": "FI"
+        "Country": "Lithuania",
+        "Slug": "lithuania",
+        "ISO2": "LT"
+    },
+    {
+        "Country": "Luxembourg",
+        "Slug": "luxembourg",
+        "ISO2": "LU"
     },
     {
         "Country": "Liechtenstein",
         "Slug": "liechtenstein",
         "ISO2": "LI"
-    },
-    {
-        "Country": "Ireland",
-        "Slug": "ireland",
-        "ISO2": "IE"
     },
     {
         "Country": "Poland",
@@ -140,19 +155,9 @@
         "ISO2": "BG"
     },
     {
-        "Country": "Gibraltar",
-        "Slug": "gibraltar",
-        "ISO2": "GI"
-    },
-    {
         "Country": "Bosnia and Herzegovina",
         "Slug": "bosnia-and-herzegovina",
         "ISO2": "BA"
-    },
-    {
-        "Country": "Lithuania",
-        "Slug": "lithuania",
-        "ISO2": "LT"
     },
     {
         "Country": "Armenia",
@@ -170,29 +175,9 @@
         "ISO2": "GL"
     },
     {
-        "Country": "Latvia",
-        "Slug": "latvia",
-        "ISO2": "LV"
-    },
-    {
-        "Country": "San Marino",
-        "Slug": "san-marino",
-        "ISO2": "SM"
-    },
-    {
-        "Country": "Malta",
-        "Slug": "malta",
-        "ISO2": "MT"
-    },
-    {
         "Country": "Moldova",
         "Slug": "moldova",
         "ISO2": "MD"
-    },
-    {
-        "Country": "Sweden",
-        "Slug": "sweden",
-        "ISO2": "SE"
     },
     {
         "Country": "Cyprus",
@@ -208,5 +193,20 @@
         "Country": "Monaco",
         "Slug": "monaco",
         "ISO2": "MC"
+    },
+    {
+        "Country": "Gibraltar",
+        "Slug": "gibraltar",
+        "ISO2": "GI"
+    },
+    {
+        "Country": "San Marino",
+        "Slug": "san-marino",
+        "ISO2": "SM"
+    },
+    {
+        "Country": "Malta",
+        "Slug": "malta",
+        "ISO2": "MT"
     }
 ]
