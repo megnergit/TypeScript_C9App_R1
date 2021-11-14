@@ -1,8 +1,11 @@
 // Selector.js
+import { useState } from 'react'
 import countriesJson from '../countries_europe.json';
 
 const Selector = () => {
     //    console.log(countriesJson)
+    const [country, setCountry] = useState('');
+
     return (
         <div>
             <p>
