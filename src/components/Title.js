@@ -3,8 +3,8 @@
 const Title = () => {
     return (
         <div>
-
-        </div>
+            <h1> Covid Tracker </h1>
+        </div >
     );
 };
 
