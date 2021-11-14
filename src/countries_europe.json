@@ -1,0 +1,212 @@
+[
+    {
+        "Country": "Germany",
+        "Slug": "germany",
+        "ISO2": "DE"
+    },
+    {
+        "Country": "Italy",
+        "Slug": "italy",
+        "ISO2": "IT"
+    },
+    {
+        "Country": "France",
+        "Slug": "france",
+        "ISO2": "FR"
+    },
+    {
+        "Country": "Spain",
+        "Slug": "spain",
+        "ISO2": "ES"
+    },
+    {
+        "Country": "United Kingdom",
+        "Slug": "united-kingdom",
+        "ISO2": "GB"
+    },
+    {
+        "Country": "Netherlands",
+        "Slug": "netherlands",
+        "ISO2": "NL"
+    },
+    {
+        "Country": "Belgium",
+        "Slug": "belgium",
+        "ISO2": "BE"
+    },
+    {
+        "Country": "Luxembourg",
+        "Slug": "luxembourg",
+        "ISO2": "LU"
+    },
+    {
+        "Country": "Austria",
+        "Slug": "austria",
+        "ISO2": "AT"
+    },
+    {
+        "Country": "Switzerland",
+        "Slug": "switzerland",
+        "ISO2": "CH"
+    },
+    {
+        "Country": "Norway",
+        "Slug": "norway",
+        "ISO2": "NO"
+    },
+    {
+        "Country": "Denmark",
+        "Slug": "denmark",
+        "ISO2": "DK"
+    },
+    {
+        "Country": "Czech Republic",
+        "Slug": "czech-republic",
+        "ISO2": "CZ"
+    },
+    {
+        "Country": "Portugal",
+        "Slug": "portugal",
+        "ISO2": "PT"
+    },
+    {
+        "Country": "Greece",
+        "Slug": "greece",
+        "ISO2": "GR"
+    },
+    {
+        "Country": "Estonia",
+        "Slug": "estonia",
+        "ISO2": "EE"
+    },
+    {
+        "Country": "Iceland",
+        "Slug": "iceland",
+        "ISO2": "IS"
+    },
+    {
+        "Country": "Finland",
+        "Slug": "finland",
+        "ISO2": "FI"
+    },
+    {
+        "Country": "Liechtenstein",
+        "Slug": "liechtenstein",
+        "ISO2": "LI"
+    },
+    {
+        "Country": "Ireland",
+        "Slug": "ireland",
+        "ISO2": "IE"
+    },
+    {
+        "Country": "Poland",
+        "Slug": "poland",
+        "ISO2": "PL"
+    },
+    {
+        "Country": "Hungary",
+        "Slug": "hungary",
+        "ISO2": "HU"
+    },
+    {
+        "Country": "Slovenia",
+        "Slug": "slovenia",
+        "ISO2": "SI"
+    },
+    {
+        "Country": "Slovakia",
+        "Slug": "slovakia",
+        "ISO2": "SK"
+    },
+    {
+        "Country": "Croatia",
+        "Slug": "croatia",
+        "ISO2": "HR"
+    },
+    {
+        "Country": "Serbia",
+        "Slug": "serbia",
+        "ISO2": "RS"
+    },
+    {
+        "Country": "Romania",
+        "Slug": "romania",
+        "ISO2": "RO"
+    },
+    {
+        "Country": "Bulgaria",
+        "Slug": "bulgaria",
+        "ISO2": "BG"
+    },
+    {
+        "Country": "Gibraltar",
+        "Slug": "gibraltar",
+        "ISO2": "GI"
+    },
+    {
+        "Country": "Bosnia and Herzegovina",
+        "Slug": "bosnia-and-herzegovina",
+        "ISO2": "BA"
+    },
+    {
+        "Country": "Lithuania",
+        "Slug": "lithuania",
+        "ISO2": "LT"
+    },
+    {
+        "Country": "Armenia",
+        "Slug": "armenia",
+        "ISO2": "AM"
+    },
+    {
+        "Country": "Albania",
+        "Slug": "albania",
+        "ISO2": "AL"
+    },
+    {
+        "Country": "Greenland",
+        "Slug": "greenland",
+        "ISO2": "GL"
+    },
+    {
+        "Country": "Latvia",
+        "Slug": "latvia",
+        "ISO2": "LV"
+    },
+    {
+        "Country": "San Marino",
+        "Slug": "san-marino",
+        "ISO2": "SM"
+    },
+    {
+        "Country": "Malta",
+        "Slug": "malta",
+        "ISO2": "MT"
+    },
+    {
+        "Country": "Moldova",
+        "Slug": "moldova",
+        "ISO2": "MD"
+    },
+    {
+        "Country": "Sweden",
+        "Slug": "sweden",
+        "ISO2": "SE"
+    },
+    {
+        "Country": "Cyprus",
+        "Slug": "cyprus",
+        "ISO2": "CY"
+    },
+    {
+        "Country": "Macedonia, Republic of",
+        "Slug": "macedonia",
+        "ISO2": "MK"
+    },
+    {
+        "Country": "Monaco",
+        "Slug": "monaco",
+        "ISO2": "MC"
+    }
+]
