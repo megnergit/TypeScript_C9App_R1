@@ -78,12 +78,16 @@ to better understand the differences.
 5. `npm start`
 
 6. Edit source codes. 
+(tips)
 - to open conolos.log
    -> go to the tab where 'localhost:3000' is open
    -> go to 'Develop' in Safari menu
    -> 'Show JavaScript Console'
 
 - no comment syntax for JSON file
+
+- comment in React jsx
+   -> `{/* here comment */}`
 
 7.  Sign up [netlify](http://www.netlify.com).
     - one can sign up with GitHub ID.

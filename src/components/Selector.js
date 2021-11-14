@@ -5,13 +5,9 @@ import countriesJson from '../countries_europe.json';
 const Selector = () => {
     //    console.log(countriesJson)
     const [country, setCountry] = useState('');
-
     return (
         <div>
-            <p>
-                selector
-            </p>
-            <select>
+            <select onChange={(e) => setCountry(e.target.value)}>
                 {
                     countriesJson.map((country, index) =>
                         <option key={index} value={country.Slug}>
@@ -19,11 +15,8 @@ const Selector = () => {
                         </option>
                     )
                 }
-            </select>
-
-
-
-        </div>
+            </select> {country}
+        </div >
     );
 
 };
