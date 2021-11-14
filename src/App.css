@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 body{
-font-family: 'Raleway', 'Roboto Slab', sans-serif;
+  font-family: 'Raleway', 'Roboto Slab', sans-serif;
+  font-weight: 200;
+  font-size:0.8rem;
+  font-display: swap;
 }
 
 /* App.js */
