@@ -4,11 +4,11 @@ import Selector from '../components/Selector';
 
 const TopPage = () => {
     return (
-        <dev>
+        <div>
             <Title />
             <Selector />
 
-        </dev>
+        </div>
     );
 };
 
