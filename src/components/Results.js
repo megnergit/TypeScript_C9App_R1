@@ -1,5 +1,5 @@
 // Results.js
-const Results = () => {
+const Results = (props) => {
     return (
         <div>
             <p>Date</p>
