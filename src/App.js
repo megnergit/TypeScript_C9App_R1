@@ -19,22 +19,22 @@ function App() {
       .then(data => {
         setCountryData({
           date: data[data.length - 1].Date,
-          newComfirmed: data[data.length - 1].Confirmed - data[data.length - 2].Confirmed,
-          totalComfirmed: data[data.length - 1].Confirmed,
+          newConfirmed: data[data.length - 1].Confirmed - data[data.length - 2].Confirmed,
+          totalConfirmed: data[data.length - 1].Confirmed,
           newRecovered: data[data.length - 1].Recovered - data[data.length - 2].Recovered,
           totalRecovered: data[data.length - 1].Recovered
         })
       })
   };
-
-  <p> {country} </p>
+  < p > {country} </p >
   return (
-    <div className="App">
-      {console.log(countryData)}
+    < div className="App" >
       <TopPage countriesJson={countriesJson}
         setCountry={setCountry}
-        getCountryData={getCountryData} />
-    </div>
+        getCountryData={getCountryData}
+        countryData={countryData}
+      />
+    </div >
   );
 };
 
