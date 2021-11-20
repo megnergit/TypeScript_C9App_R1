@@ -101,4 +101,4 @@ to better understand the differences.
 1. Full annotation in source codes.
 2. Brush up.
 3. Gatsby/Next.js
-
+4. Okay, 'Recovered' records missing in most of recent data.

@@ -17,6 +17,7 @@ function App() {
     fetch(`https://api.covid19api.com/country/${country}`)
       .then(res => res.json())
       .then(data => {
+        console.log("data in App.js", data[data.length - 128])
         setCountryData({
           date: data[data.length - 1].Date,
           newConfirmed: data[data.length - 1].Confirmed - data[data.length - 2].Confirmed,
