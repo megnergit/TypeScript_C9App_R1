@@ -1,6 +1,7 @@
-import TopPage from './pages/TopPage';
-import { useState } from 'react'
+import { useState } from "react";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import countriesJson from './countries_europe.json';
+import TopPage from './pages/TopPage';
 import './App.css';
 
 function App() {
@@ -29,13 +30,17 @@ function App() {
   };
   < p > {country} </p >
   return (
-    < div className="App" >
-      <TopPage countriesJson={countriesJson}
-        setCountry={setCountry}
-        getCountryData={getCountryData}
-        countryData={countryData}
-      />
-    </div >
+    <BrowserRouter>
+      <Routes>
+        <Route exact path='/' element={
+          <TopPage countriesJson={countriesJson}
+            setCountry={setCountry}
+            getCountryData={getCountryData}
+            countryData={countryData} />
+        }>
+        </Route>
+      </Routes>
+    </BrowserRouter >
   );
 };
 
